@@ -1,0 +1,56 @@
+:global(body) {
+	background: linear-gradient(to bottom right, #2e073f 0%, #7a1cac 100%);
+
+	margin: 0;
+	height: 100vh;
+
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	align-items: center;
+
+	font-family: "JetBrains Mono";
+	font-size: 1em;
+}
+
+#content {
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	align-items: center;
+}
+
+p {
+	color: #EBD3F8;
+	margin: 0.3em;
+	text-align: center;
+	font-size: 1.3em;
+}
+
+img {
+	border-radius: 50%;
+	height: 15em;
+	width: 15em;
+	object-fit: cover;
+}
+
+i {
+	color: #EBD3F8;
+	font-size: 4em;
+	margin-top: 1em;
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
+i:hover {
+	cursor: pointer;
+}
+
+#uname {
+	font-weight: lighter;
+	font-size: 3em;
+}
+
+#silly {
+	font-size: 1em;
+}
