@@ -1,16 +1,9 @@
 :global(body) {
-	background: linear-gradient(to bottom right, #2e073f 0%, #7a1cac 100%);
-
-	margin: 0;
 	height: 100vh;
-
 	display: flex;
 	flex-flow: column;
 	justify-content: center;
 	align-items: center;
-
-	font-family: "JetBrains Mono";
-	font-size: 1em;
 }
 
 #content {
@@ -20,13 +13,6 @@
 	align-items: center;
 }
 
-p {
-	color: #EBD3F8;
-	margin: 0.3em;
-	text-align: center;
-	font-size: 1.3em;
-}
-
 img {
 	border-radius: 50%;
 	height: 15em;
@@ -34,23 +20,42 @@ img {
 	object-fit: cover;
 }
 
+#uname {
+	font-weight: lighter;
+	font-size: 3em;
+}
+
+#desc {
+	text-align: center;
+	font-size: 1.3em;
+}
+
 i {
-	color: #EBD3F8;
 	font-size: 4em;
-	margin-top: 1em;
-	margin-left: 1em;
-	margin-right: 1em;
+	margin: .75em .75em 0em .75em;
 }
 
 i:hover {
 	cursor: pointer;
 }
 
-#uname {
-	font-weight: lighter;
-	font-size: 3em;
+/* Media Queries */
+
+/* 80% */
+@media screen and (min-width: 700px) and (max-width: 1024px),
+screen and (max-width: 602px) {
+	img { width: 12em; height: 12em; }
+	#uname { font-size: 2.4em; }
+	#desc { font-size: 1.04em; }
+	#silly { font-size: 0.8em; }
+	i { font-size: 3.2em; }
 }
 
-#silly {
-	font-size: 1em;
+/* 60% */
+@media screen and (max-width: 485px) {
+	img { width: 9em; height: 9em; }
+	#uname { font-size: 1.8em; }
+	#desc { font-size: 0.78em; }
+	#silly { font-size: 0.6em; }
+	i { font-size: 2.4em; }
 }

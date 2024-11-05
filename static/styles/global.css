@@ -1,0 +1,33 @@
+body {
+	background: linear-gradient(to bottom right, #2e073f 0%, #7a1cac 100%);
+	margin: 0;
+	font-family: "JetBrains Mono";
+	font-size: 1em;
+	color: #EBD3F8;
+}
+
+p {
+	margin: 0.3em
+}
+
+h1 {
+	color: #EBD3F8;
+	margin: 0.3em;
+}
+
+i {
+	color: #EBD3F8;
+}
+
+button {
+	background-color: #7A1CAC;
+	border-color: #AD49E1;
+	border-radius: 0.3em;
+	font-family: "JetBrains Mono";
+	font-size: 1em;
+	color: #EBD3F8;
+}
+
+button:hover {
+	background-color: #AD49E1;
+}

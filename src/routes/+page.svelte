@@ -1,7 +1,11 @@
+<svelte:head>
+	<title>Cixfra's page</title>
+</svelte:head>
+
 <div id="content">
 	<img src="hd_pfp.png" alt="pfp">
 	<p id="uname">cixfra</p>
-	<p>
+	<p id="desc">
 		I'm a programmer who covers all levels of developement, specializing in low level <br/>
 		programming and cybersecurity, allways willing to learn new things.
 	</p>
@@ -13,6 +17,5 @@
 	</div>
 </div>
 <style>
-	@import "JetBrainsMono.css";
 	@import "./styles.css";
 </style>

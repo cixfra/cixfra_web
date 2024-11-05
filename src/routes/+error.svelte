@@ -1,3 +1,7 @@
+<svelte:head>
+	<title>Whoops &gtw&lt</title>
+</svelte:head>
+
 <script>
 	import { page } from "$app/stores";
 	function fuckGoBack() { history.back() }
@@ -10,6 +14,5 @@
 </div>
 
 <style>
-	@import "./JetBrainsMono.css";
 	@import "./error.css";
 </style>
